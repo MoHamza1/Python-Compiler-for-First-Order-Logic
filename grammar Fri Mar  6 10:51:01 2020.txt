@@ -1,0 +1,7 @@
+formula -> (formula)|Term = Term |Primative Formula||Quantifier Variable Formula|Formula Connective Formula
+Primative Formula ->P(term,term) |Q(term) 
+Term -> Variable |Constant 
+Variables -> x|y|z
+Constants -> C
+Quantifiers -> exists|forall
+Logical connectives -> lor|implies|land
