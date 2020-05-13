@@ -1,0 +1,7 @@
+formula -> (formula)|Term == Term |Primative Formula||NOT Formula|Quantifier Variable Formula|Formula Connective Formula
+Primative Formula ->Same(term,term) |Non_zero(term) 
+Term -> Variable |Constant 
+Variables -> cost1|price
+Constants -> 30
+Quantifiers -> E|A
+Logical connectives -> AND|IFF

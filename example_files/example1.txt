@@ -1,0 +1,7 @@
+formula: A price E cost1 ( Same(cost1, price) AND ( NOT Non_zero(price) IFF (cost1 == 30) ) )
+equality: ==
+connectives: AND OR IMPLIES IFF NOT
+quantifiers: E A
+variables: price cost1
+constants: 30 Z
+predicates: Same[2] Non_zero[1] notEqual[3]

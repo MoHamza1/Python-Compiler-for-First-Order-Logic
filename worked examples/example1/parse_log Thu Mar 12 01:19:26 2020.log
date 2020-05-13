@@ -1,0 +1,13 @@
+Aprice
+Ecost1
+AND
+Same
+cost1
+price
+IFF
+¬
+Non_zero
+price
+==
+cost1
+30
