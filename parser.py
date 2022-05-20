@@ -403,8 +403,7 @@ def formula_to_graph(the_formula, parent):
 print(f"Reading input file in from {sys.argv[1]}")
 
 old_stdout = sys.stdout
-log_file = open(f"parse_log {time.asctime()}.log", "w")
-sys.stdout = log_file
+
 
 syntax = UserDefinedSyntax(f"{sys.argv[1]}")
 test = formula(syntax.formula)
@@ -426,7 +425,6 @@ nx.draw_networkx_labels(G,pos,labels)
 plt.savefig(f'parse_tree {time.asctime()}.png')
 
 sys.stdout = old_stdout
-log_file.close()
 
 formula_to_grammar(grammar,syntax)
 
