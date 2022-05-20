@@ -7,6 +7,7 @@ The dependencies for this project are matplotlib, network, and pygraphviz.
 
 These should all be available on mds computers.
 
+
 Alternatively, to install pygraphviz, install brew from [https://brew.sh/](https://brew.sh/)on your Linux/macOS machine and install pygraphviz by typing brew install graphviz
 
 To run the parser first
@@ -23,7 +24,7 @@ There will be two outputs into the current directory both time-stamped in their 
   - A complete pre order traversal of the syntax tree
     - Or an incomplete one in the case of encountering an error
     - Note: no traversal will be given if the formula is found to be invalid before attempting to build the tree.
-  - A list of error messages, shown recursively similar to how python gives error messages. ![image](./parse_tree Wed May 13 13:41:01 2020.png)
+  - A list of error messages, shown recursively similar to how python gives error messages. ![parse_tree Wed May 13 13:41:01 2020](https://user-images.githubusercontent.com/44465136/169529411-8ececff8-8778-4260-8961-ed7fa558f834.png)
 
 2. A PNG file: `parse\_tree Fri Mar 6 04/28/50 2020.png`;
   - Showing the parse tree for the formula, if it is valid.
