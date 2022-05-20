@@ -23,7 +23,7 @@ There will be two outputs into the current directory both time-stamped in their 
   - A complete pre order traversal of the syntax tree
     - Or an incomplete one in the case of encountering an error
     - Note: no traversal will be given if the formula is found to be invalid before attempting to build the tree.
-  - A list of error messages, shown recursively similar to how python gives error messages. ![image](./parse_tree Wed May 13 13:41:01 2020.png)
+  - A list of error messages, shown recursively similar to how python gives error messages. <img src="parse_tree Wed May 13 13:41:01 2020.png" width="800" />![image](/parse_tree Wed May 13 13:41:01 2020.png)
 
 2. A PNG file: `parse\_tree Fri Mar 6 04/28/50 2020.png`;
   - Showing the parse tree for the formula, if it is valid.
